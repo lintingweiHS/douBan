@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+}
+.db{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left:0;
+}
+.db .db-global{
+    width: 100%;
+    height: 28px;
+    background-color: #545652;
+    line-height: 28px;
+    color: #d5d5d5;
+    overflow: hidden;
+}
+.db .db-global .bd-left::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.db .db-global .bd-left li{
+    float: left;
+    padding: 0 12px;
+    font-size: 12px; 
+    cursor: pointer;
+}
+.db .db-global .bd-left .bd-right{
+    float: right;
+}
+.db .db-music{
+    width: 100%;
+    height: 115px;
+    background-color: #f0f3ef;
+}
+.db .db-music .nav-wrap{
+    position: relative;
+    width: 1040px;
+    margin: 0 auto;
+    height: 75px;
+    border-bottom: 1px solid #e5ebe4;
+    font-size: 0;
+}
+.db .db-music .nav-logo{
+    float: left;
+    height: 75px;
+    width: 145px;
+    margin: 0px 12px 0px 0px;
+    font-size: 30px;
+    font-weight:600;
+    color: orange;
+    line-height: 75px;
+
+}
+.db .db-music .nav-wrap .inp{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    width: 507px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+.db .db-music .nav-wrap .inp .inpt{
+    width: 470px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    border: none;
+    vertical-align: top;
+    outline: none;
+    text-indent: 1em;
+}
+.db .db-music .nav-wrap .inp .inps{
+    width:37px;
+    height: 32px;
+    background-image: url('image/tijiao.png');
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.db .db-music .nav-secondary{
+    position: relative;
+    width: 1040px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.db .db-music .nav-secondary ul li{
+    color: #555d53;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+.db #content{
+    width: 1040px;
+    position: relative;
+    margin: 0 auto;
+    min-height: 100px;
+    margin-top: 40px;
+}
+.db #content #article{
+    float: left;
+    width: 675px;
+    min-height: 100px;
+}
+.db #content #article::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.db #content #aside{
+    float: left;
+    margin-left:64px;
+    width: 300px;
+    min-height: 100px;
+}
+.db #content #aside::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.db #content #aside .img_wrap img{
+    width: 300px;
+    height: 250px;
+}
+.db #content #aside .join{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+.db #content #aside .join>div{
+    width: 98px;
+    height: 57px;
+    margin: 1px;
+    color: #669;
+    background-color: #F5F7F8;
+    float: left;
+}
+.db #content #aside .join>div>div{
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.db #content #aside .join .green{
+    margin-top: 5px;
+    color: #074;
+    font-weight: 600;
+}
+.db #content #aside .join #wyjr{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #138A64;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 40px;
+}
+.db #content #aside .tag-block{
+    margin-top: 30px;
+    width: 300px;
+    height: 220px;
+}
+.db #content #aside .tag-block p{
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #111;
+}
+.db #content #aside .tag-block p span{
+    font-size: 13px;
+    color: #ccc;
+    float: right;
+}
+.db #content #aside .tag-block li{
+    width: 147px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    font-size: 15px;
+    color: #138A64;
+    text-indent: 1em;
+    border: 1px solid #F5F7F8;
+    cursor: pointer;
+}
+.db #content #article #swiper{
+    width: 675px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.db #content #article #popular{
+    width: 675px;
+    height: 480px;
+    margin-top: 40px;
+    position: relative;
+}
+#popular .content .conBox::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+#popular .content .conBox .box{
+    width: 130px;
+    height: 208px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+
+}
+#popular .content .conBox .box img{
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+#popular .content .conBox .box .name{
+    display:block;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: #138A64;
+}
+#popular .content .conBox .box p{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}

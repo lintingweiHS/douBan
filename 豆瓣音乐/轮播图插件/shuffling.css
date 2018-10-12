@@ -1,0 +1,59 @@
+li{
+    list-style: none;
+    padding: 0px;
+}
+img{
+    font-size: 0;
+}
+#swiper .content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+#swiper .content li{
+    height: 100%;
+    float: left;
+}
+#swiper .content li img{
+    height: 100%;
+}
+#swiper .oclick span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.3;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#swiper .prevBtn{
+    left: 10px;
+}
+#swiper .nextBtn{
+    right: 10px;
+}
+#swiper .oindex{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+#swiper .oindex li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#swiper .oindex .active{
+    background-color: #f40;
+}
